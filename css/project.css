@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #b3b0b0;
+    line-height: 1.65;
+}
+.social-media{
+    margin: 40px auto;
+    padding: 5 15;
+    font-size: 40px;
+    cursor: pointer;  
+}
+.social-media i {
+    color: black;
+    
+}
+.container-satu{
+    width: 180vh;
+    height: 90vh;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: #66f3c9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(89, 100, 105);
+    display: flex;
+    text-align: justify;
+    border-radius: 10px;
+}
+.sidebar-dua{
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0;
+    background: #fcf9f4;
+    text-align: center;
+        
+}
+.kontak-saya{
+    display: flex;
+    padding: 5px 5px;   
+}
+.satuuu{
+    background-color: rgb(13, 163, 233);
+    color: antiquewhite;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+.dua{
+    padding: 5px;
+    margin-left: 5px;    
+}
+.margin-gambar{
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;   
+}
+.gambar-download{
+    padding: 5px;
+    cursor: pointer;
+}
+.sidebar-dua img{
+    width: 86%;
+    display: flex;
+    padding-top: 20px ;
+   
+}

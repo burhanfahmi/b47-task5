@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(71, 158, 245);
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.tekno{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-project{
+    
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    
+}  
+label{
+    font-size: 20px;
+    font-weight: bold;
+} 
+.satu{
+    background-color: white;
+    border: 1px solid rgb(233, 223, 223);
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+textarea{
+    background-color: white;
+    border: 1px solid rgb(233, 223, 223);
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.start-date{
+    display: flex;
+    justify-content: end;
+    
+}
+.start-date-left input{
+    background-color: rgb(241, 241, 233);
+    border: 1px solid rgb(233, 223, 223);
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.start-date-right input{
+    background-color: rgb(241, 241, 233);
+    border: 1px solid rgb(233, 223, 223);
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.start-date-left{
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.start-date-right{
+    margin-top: 20px;
+}
+.project-name{
+    margin-top: 20px;
+}
+.deskripsi{
+    margin-top: 20px;
+}
+.checkbox1,.checkbox2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.checkbox1 label{
+    margin-right: 50px;
+}
+.checkbox2 label{
+    margin-right: 46px;
+}
+.input-image{
+    width: 100%;
+    background: #fdfbfb;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+p{
+    font-size: 15px;
+}
+.input-image label{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.button1{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fdfbfb;
+    background: rgb(8, 94, 253);
+    float: right;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(241, 126, 18);
+
+}
+.line{
+    border: 1px solid rgb(216, 213, 213);
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+.card{
+    width: 350px;
+    margin: 10px;
+    
+}
+.card .galery{
+    border: 1px solid rgb(230, 225, 225);
+    border-radius: 10px;
+    margin-bottom: px;
+    background-color: #fdfbfb;
+    padding: 10px 20px;
+}  
+div .galery img{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+div .deskripsi h3{
+    padding: 10px;
+    text-align: justify;
+}
+div span{
+    margin: 10px;
+}
+div p{
+    text-align: justify;
+    
+}
+.durasi{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.galery img{
+    display: flex;
+
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.btn-edit{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-delete{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+.btn-edit:hover{
+    background-color: rgb(241, 126, 18);
+}
+.btn-delete:hover{
+    background-color: rgb(241, 126, 18);;
+}
+
+.durasi-1{
+    font-weight: normal;
+    line-height: 22px;
+
+}
+.icon1{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+

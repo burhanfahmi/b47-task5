@@ -1,0 +1,56 @@
+function dataBlog2(){
+    let projectname =document.getElementById('input-title').value;
+    let startDate =document.getElementById('start-date').value;
+    let endDate =document.getElementById('end-date').value;
+    let textArea =document.getElementById('input-textarea').value;
+    let nodeJs =document.getElementById('node').checked;
+    let nextJs =document.getElementById('next').checked;
+    let reactJs =document.getElementById('react').checked;
+    let typeJs =document.getElementById('type').checked;
+    let image =document.getElementById('input-image').files;
+    
+    
+
+    image = URL.createObjectURL(this.files[0])
+
+    let arrayContent = `<div class="card">
+    <div class="galery">
+        <img src="" alt="image">
+        <div class="deskripsi2">
+            <h3 ><a href="">${projectname}</a></h3>
+            <span>
+                <p class="durasi">Durasi: 3 bulan</p>
+                <p class="durasi-1">${textArea}
+                </p>
+            </span><br>
+            <div class="icon">`
+    if (reactJs) {
+        arrayContent += `<span><i class="fa-brands fa-react"></i></span>`
+    }
+    if(nodeJs){
+        arrayContent +=`<span><i class="fa-brands fa-node-js"></i></span>`
+    }
+    if(nextJs){
+        arrayContent +=`<span><i class="fa-brands fa-square-js"></i></span>`
+    }      
+    arrayContent += `</div>
+            <div class="btn-group">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+
+            </div>
+        </div>
+    </div> 
+</div>`
+
+console.log(document.getElementById('content').innerHTML);
+document.getElementById('content').innerHTML += arrayContent;
+
+    // content =arrayContent;
+    // console.log(textArea);
+    // console.log(projectname);
+    // console.log(reactJs);
+    // console.log(nodeJs);
+    // console.log(typeJs);
+    // console.log(nextJs);
+}

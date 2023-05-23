@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>My blog </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/blog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
+        
+    </head>
+    <body>
+        <nav>
+            <div class="navbar-left">
+                <ul>
+                    <li>
+                        <img src="assets/images/dumbways.png" alt="dumsway_logo">
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+        <div>
+            <div>
+                <div>
+
+                    <form onsubmit="return false" class="form-project">
+                        <h1>ADD MY PROJECT</h1>
+                        <div class="project-name">
+                            <label for="input-title">Project Name</label>
+                            <input class="satu" type="text" id="input-title">
+                        </div>
+                        <div class="start-date">
+                            <div class="start-date-left">
+                                <label for="input-start-date">Start Date</label>
+                                <input class="start1-date" type="date" id="start-date">
+                            </div>
+                            <div class="start-date-right">
+                                <label for="input-end-date">End Date</label>
+                                <input class="end-date" type="date" id="end-date">
+                            </div>
+                        </div>
+                        <div class="deskripsi">
+                            <label for="input-textarea">Description</label> 
+                            <textarea  id="input-textarea"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <p class="tekno">Technologies</p>
+                            <div class="checkbox1">
+                                <input type="checkbox" id="node" class="input-checkbox">
+                                <label for="">Node Js</label>
+                                <input type="checkbox" id="javascript" class="input-checkbox">
+                                <label for="">Next Js</label>
+                            </div>
+                            <div class="checkbox2">
+                                <input type="checkbox" id="react" class="input-checkbox">
+                                <label for="">React Js</label>
+                                <input type="checkbox" id="golang" class="input-checkbox">
+                                <label for="">Golang</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Upload Image</label>
+                            <div class="input-image">
+                                <label for="input-image">
+                                    <p>Attach files</p>
+                                    <img src="assets/images/file.png" alt="image">
+                                    <input type="file" accept="image/*" alt="image" id="input-image" hidden/>
+                                </label>  
+                                
+                            </div>
+                        </div>
+                        <div >
+                            
+                            <button class="button1" type="submit" onclick="projectPost(event)">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+            <h1>MY PROJECT</h1>
+            <div id="content" class="blog">
+                <div class="card">
+                    <div class="galery">
+                        <img src="assets/images/blog-img.png" alt="image">
+                        <div class="deskripsi2">
+                            <!-- <h3 ><a href="blog_detail.html">Dumbways Web App</a></h3>
+                            <div>
+                                <p class="durasi">Durasi: 3 bulan</p>
+                                <p class="durasi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam?</p>
+                            </div>
+                            <div class="icon1">
+                                <i class="fa-brands fa-react"></i> 
+                                <i class="fa-brands fa-node-js"></i> 
+                                <i class="fa-brands fa-js"></i> 
+                                <i class="fa-brands fa-golang"></i> 
+                            </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-edit">Edit</button>
+                                <button class="btn-delete">Delete</button>
+                
+                            </div> -->
+                            <h3 ><a href="blog_detail.html">Dumbways Web App</a></h3>
+                            <p class="durasi">Durasi: 3 bulan</p>
+                            <p class="durasi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam?</p>
+                            <div class="icon1">
+                                <i class="fa-brands fa-react"></i> 
+                                <i class="fa-brands fa-node-js"></i> 
+                                <i class="fa-brands fa-js"></i> 
+                                <i class="fa-brands fa-golang"></i> 
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-edit">Edit</button>
+                                <button class="btn-delete">Delete</button>
+                
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        <script src="js/blog.js"></script>
+    </body>
+</html>
